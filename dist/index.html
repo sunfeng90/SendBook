@@ -1,0 +1,16 @@
+<!DOCTYPE html><html><head><style>body { font-size: .16rem; }</style><meta charset=utf-8><meta name=viewport content="width=device-width,minimum-scale=1,maximum-scale=1,initial-scale=1,user-scalable=no"><meta name=format-detection content="telephone=no"><meta name=apple-mobile-web-app-capable content=yes><meta name=apple-mobile-web-app-status-bar-style content=black><title>福利领取</title><script>document.documentElement.style.fontSize = 100 * innerWidth / 1080 + 'px'
+  addEventListener('load', function() {
+    setTimeout(function(){
+       document.documentElement.style.fontSize = 100 * innerWidth / 1080 + 'px'
+       window.unit = 100 * innerWidth / 1080;
+       var e = document.createEvent('Event');
+       e.initEvent('adjustReady', true, true);
+       window.dispatchEvent(e);
+    }, 480);
+  })
+  addEventListener('orientationchange', function() {
+      setTimeout(function(){
+        document.documentElement.style.fontSize = 100 * innerWidth / 1080 + 'px'
+      }, 480)
+
+  });</script><link href=./static/css/app.5529e32fd3f6868e05dfdb853ee93410.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=./static/js/manifest.439709861f78349c7d02.js></script><script type=text/javascript src=./static/js/vendor.09c1cafde804bc0293c2.js></script><script type=text/javascript src=./static/js/app.e5201546d89b888a8d70.js></script></body></html>
